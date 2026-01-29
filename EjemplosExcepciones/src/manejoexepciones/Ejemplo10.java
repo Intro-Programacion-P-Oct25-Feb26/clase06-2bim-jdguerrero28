@@ -22,16 +22,16 @@ public class Ejemplo10 {
             int valor1 = entrada.nextInt();
             System.out.println("Ingrese valor 2 a operar: ");
             int valor2 = entrada.nextInt();
-            if (valor1 < 0 || valor2 < 0){
-               throw new Exception("Número negativos");
+            if (valor1 < 0 || valor2 < 0) {
+                throw new Exception("Número negativos");
             }
-            
-            if (valor1>100){
+
+            if (valor1 > 100) {
                 throw new Exception("El valor de primer valor es muy alto");
             }
             int resultado = valor1 / valor2;
             System.out.printf("Resultado %s\n", resultado);
-            
+
         } catch (ArithmeticException e) {
             System.out.printf("(ArithmeticException) Ocurrió una "
                     + "excepción %s\n", e);

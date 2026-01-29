@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes﻿​_
  */
-public class Ejemplo051 {
+public class Ejemplo052 {
 
     public static void main(String[] args) {
         boolean bandera = true;

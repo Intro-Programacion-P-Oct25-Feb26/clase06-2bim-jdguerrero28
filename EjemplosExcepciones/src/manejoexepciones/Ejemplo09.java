@@ -15,6 +15,7 @@ import java.util.Scanner;
 public class Ejemplo09 {
 
     public static void main(String[] args) {
+        
         Scanner entrada = new Scanner(System.in);
 
         try {
@@ -22,8 +23,8 @@ public class Ejemplo09 {
             int valor1 = entrada.nextInt();
             System.out.println("Ingrese valor 2 a operar: ");
             int valor2 = entrada.nextInt();
-            if (valor1 < 0 || valor2 < 0){
-               throw new Exception("Número negativos");
+            if (valor1 < 0 || valor2 < 0) {
+                throw new Exception("Número negativos");
             }
             int resultado = valor1 / valor2;
             System.out.printf("Resultado %s\n", resultado);

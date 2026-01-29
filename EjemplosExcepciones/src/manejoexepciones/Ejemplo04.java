@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class Ejemplo04 {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         
         try {
             Scanner entrada = new Scanner(System.in);

@@ -30,7 +30,7 @@ public class Ejemplo111 {
                 } else if (valor1 > 100) {
                     throw new Exception("El valor de primer valor es muy alto");
                 }
-                i=i+1;
+                i = i + 1;
                 int resultado = valor1 / valor2;
                 System.out.printf("Resultado %s\n", resultado);
 
